@@ -28,6 +28,7 @@ class App extends React.Component {
     //set State takes in an object with a key that is the key in our state
     //and the value we want to be inside the key inside the state
     this.setState({pokemon: this.props.pokemon});    
+    //** Currently havent passed down state past PokemonList */
   }
 }
 
